@@ -11,8 +11,8 @@ We observe that `RealGraph+` provides the performance much better than the exist
   <img src="https://user-images.githubusercontent.com/47405729/216280476-c19a88a4-20c9-4c44-8f8b-348b9c48e05f.png" />
 </p>
 
-[^Kyr12]: 1
-[^Roy13]: 
-[^Han13]: 
-[^Zhu15]: 
-[^Zhe15]: 
+[^Kyr12]: GraphChi: Large-scale graph computation on just a pc, Aapo Kyrola et al, USENIX OSDI, 2012
+[^Roy13]: X-Stream: Edge-centric graph processing using streaming partitions, Amitabha Roy et al, ACM SOSP, 2013
+[^Han13]: TurboGraph: A fast parallel graph engine handling billion-scale graphs in a single PC, Wook-Shin Han et al, ACM KDD, 2013
+[^Zhu15]: Gridgraph: Large-scale graph processing on a single machine using 2-level hierarchical partitioning, Xiaowei Zhu et al, USENIX ATC, 2015
+[^Zhe15]: FlashGraph: Processing billion-node graphs on an array of commodity SSDs, Da Zheng et al, USENIX FAST, 2015
