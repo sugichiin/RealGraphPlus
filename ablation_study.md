@@ -6,9 +6,9 @@ We note that the SIMD processing for CPU is applied to all graph algorithms exce
 For example, `SIMD-G/UA` indicates RealGraph with SIMD processing for GPU `(SIMD-G)` and the U-IO \& A-IO together `(UA)`.
 U-IO and A-IO together `(UA)` improves the performance about 2.1×/1.7× in terms of the IO-BW/execution time, respectively, by reducing the times for **Idle** and **Issue**.
 Through A-IO, a thread does not need to wait for the completion of IO in an idle state; through U-IO, a thread becomes free from the context switching overhead between a user mode and a kernel mode. As a result, RealGraph+ succeeded in increasing its IO-BW in storage by issuing IO requests more frequently.
-SIMD processing `(SIMD-C/SIMD-G)` improves the performance about 1.2×/1.4× in CPU and 4.0×/6.2× in GPU, , in terms of the IO-BW/execution time respectively, by reducing the time for **Process**.
+SIMD processing `(SIMD-C/SIMD-G)` improves the performance about 1.2×/1.4× in CPU and 4.0×/6.2× in GPU, in terms of the IO-BW/execution time respectively, by reducing the time for **Process**.
 Through SIMD processing, a thread parallelizes independent operations of a graph algorithm for a large number of nodes and edges. As a result, RealGraph+ can increase its IO-BW in storage by issuing IO requests more frequently, which leads to the overall performance improvement in graph processing.
-SIMD-G requires additional MM-to-DM IO, compared with SIMD-C. However, it performs much faster than SIMC-C because it employs a large number of GPU cores.
+`SIMD-G` requires additional MM-to-DM IO, compared with `SIMD-C`. However, it performs much faster than `SIMD-C` because it employs a large number of GPU cores.
 In summary, the result indicates that all of our optimization strategies address technical issues explained in Section 3 successfully, thereby increasing the IO-BW and reducing execution times effectively.
 Finally, we observe RealGraph with the best combination of our strategies `(SIMD-G/UA)` enhances the performance of RealGraph (i.e., `ORG`) by 5.7×/7.4× (WCC on the Friend dataset), in terms of the IO-BW/execution time, respectively.
 We use `(SIMD-G/UA)` as our best choice for RealGraph+ in the following experiments.
