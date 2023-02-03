@@ -15,7 +15,7 @@ Nevertheless, the result shows that `RealGraph+` performs better than distribute
 </p>
 
 
-[^Gon12]: 
-[^Low12]: 
-[^Gon14]: 
-[^Ave11]: 
+[^Gon12]: Powergraph: Distributed graph-parallel computation on natural graphs, Joseph E Gonzalez et al, USENIX OSDI 2012
+[^Low12]: Distributed GraphLab: A Framework for Machine Learning and Data Mining in the Cloud, Yucheng Low et al, In VLDB Endowment, 2012
+[^Gon14]: Graphx: Graph processing in a distributed dataflow framework, Joseph E Gonzalez et al, USENIX OSDI, 2014
+[^Ave11]: Giraph: Large-scale graph processing infrastructure on hadoop, Ching Avery, Proceedings of the Hadoop Summit. Santa Clara, 2011
