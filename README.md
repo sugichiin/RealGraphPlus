@@ -1,19 +1,12 @@
 # RealGraphPlus
-
-
-![Specifications of our single-machine systems](https://user-images.githubusercontent.com/47405729/216283494-91898018-cbe2-4142-979d-32022b3a3f61.png)
-
-
-
-
-![Statistics of real-world-datasets](https://user-images.githubusercontent.com/47405729/216283496-0bd65daf-9a13-4593-971f-c1539608e7b5.png)
-
-
-
-
-![Effectiveness of optimization strategies](https://user-images.githubusercontent.com/47405729/216280483-39729b29-e936-4732-9c7d-422e63c70144.png)
-
-
-
-
-![Comparison with single-machine-based graph engines](https://user-images.githubusercontent.com/47405729/216280476-c19a88a4-20c9-4c44-8f8b-348b9c48e05f.png)
+## EXPERIMENTS
+  
+In this section, we validate the effectiveness of RealGraph+ by answering the following evaluation questions (EQs):  
+ - EQ1[^eq1]: Are our optimization strategies effective in improving the performance of RealGraph+?  
+ - EQ2[^eq1]: How much does RealGraph+ improve the original RealGraph in terms of the IO-BW/exec. time in graph processing?  
+ - EQ3[^eq3]: Does RealGraph+ provide the performance better than state-of-the-art single-machine-based graph engines?  
+ - EQ4[^eq4]: Does RealGraph+ provide the performance better than state-of-the-art distributed-system-based graph engines?  
+  
+[^eq1]: https://github.com/sugichiin/RealGraphPlus/blob/main/ablation_study.md 
+[^eq3]: https://github.com/sugichiin/RealGraphPlus/blob/main/singlemachine_compare.md 
+[^eq4]: https://github.com/sugichiin/RealGraphPlus/blob/main/distributedsystem_compare.md 
